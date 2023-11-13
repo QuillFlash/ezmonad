@@ -1,9 +1,9 @@
-# waymonad
+# EZMonad
 
 We all love tiling window managers and most of all we love [xmonad](https://github.com/xmonad/xmonad).
-As you may know, [wayland](https://wayland.freedesktop.org/) is trying to replace X11.
+As you may know, [wayland](https://wayland.freedesktop.org/) is trying to replace X11. This brings problems for us, since xmonad will not work with the new architecture.
 
-This brings problems for us, since xmonad will not work with the new architecture.
+Also, XMonad used to be extremely difficult for the end-user to configure and required tedious Haskell hacking to get the best rice onto your system.
 
 This project is intended to provide a wayland based desktop which shares the ideals and experience from xmonad.
 
@@ -25,8 +25,8 @@ Swaybg should work, and my waymonad-clients has a somewhat usable background app
 To test this, you need `wlroots` installed.
 This currently only builds with the `new-build` feature of cabal-install. `stack` is (not yet) supported.
 
- * git clone --recursive https://github.com/ongy/waymonad
- * cd waymonad
+ * git clone --recursive https://github.com/QuillFlash/ezmonad
+ * cd ezmonad
  * `[PKG_CONFIG_PATH=/usr/local/lib/pkgconfig] cabal new-build`
  
  ### For unprivileged install:
@@ -43,7 +43,7 @@ This currently only builds with the `new-build` feature of cabal-install. `stack
 ### What this is NOT
 
 * A straight upgrade path
-* A reimplementation of xmonad
+* A reimplementation of XMonad
 * A full implementation containing DRM and other backends
 
 ### What this is
@@ -51,6 +51,7 @@ This currently only builds with the `new-build` feature of cabal-install. `stack
 * Implemented in Haskell
 * predictable layouting
 * based on the compositor library [wlroots](https://github.com/SirCmpwn/wlroots)
+* A more user-friendly take on XMonad
 
 
 # The fabulous logo:
