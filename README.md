@@ -1,7 +1,7 @@
 # EZMonad
 
-We all love tiling window managers and most of all we love [xmonad](https://github.com/xmonad/xmonad).
-As you may know, [wayland](https://wayland.freedesktop.org/) is trying to replace X11. This brings problems for us, since xmonad will not work with the new architecture.
+We all love tiling window managers and most of all we love [XMonad](https://github.com/xmonad/xmonad).
+As you may know, [Wayland](https://wayland.freedesktop.org/) is trying to replace X11. This brings problems for us, since XMonad will not work with the new architecture.
 
 Also, XMonad used to be extremely difficult for the end-user to configure and required tedious Haskell hacking to get the best rice onto your system.
 
