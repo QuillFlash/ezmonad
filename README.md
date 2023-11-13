@@ -5,9 +5,9 @@ As you may know, [Wayland](https://wayland.freedesktop.org/) is trying to replac
 
 Also, XMonad used to be extremely difficult for the end-user to configure and required tedious Haskell hacking to get the best rice onto your system.
 
-This project is intended to provide a wayland based desktop which shares the ideals and experience from xmonad.
+This project is intended to provide a Wayland-based desktop which shares the ideals and experience from XMonad, while drastically improving the UX.
 
-## [WIP]: This is work in Progress.
+## [WIP]: This is Work In Progress.
 ### There's no bar/quality of life
 
 If you need to lock your session: swaylock should work perfectly fine.
