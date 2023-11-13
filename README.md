@@ -1,6 +1,6 @@
 # EZMonad
 
-We all love tiling window managers and most of all we love [XMonad](https://github.com/xmonad/xmonad).
+We all love tiling window managers and most of all love [XMonad](https://github.com/xmonad/xmonad).
 As you may know, [Wayland](https://wayland.freedesktop.org/) is trying to replace X11. This brings problems for us, since XMonad will not work with the new architecture.
 
 Also, XMonad used to be extremely difficult for the end-user to configure and required tedious Haskell hacking to get the best rice onto your system.
@@ -17,7 +17,7 @@ Swaybg should work, and my waymonad-clients has a somewhat usable background app
 
 ### "Minor" things
 
-* There is barely any documentation so unless you are familiar with Haskell (and preferably xmonad) this may be rather hard to get comfortable with.
+* There is barely any documentation so unless you are familiar with Haskell (and preferably XMonad), so get ready to basically get Waymonad Updated with none of the simplification in Alpha.
 
 -----
 # "Install" (compile and execute locally):
